@@ -94,12 +94,12 @@ prevBtn.addEventListener('click',() => {
 
 
 carouselSlide.addEventListener('transitionend', () => {
-    if (carouselSlide[counter].id === 'lastClone') {
+    if (carouselSlide[counter].id == 'lastClone') {
       carouselSlide.style.transition = "none";
       counter = carouselImages.length -2;
       carouselSlide.style.transform = 'translateX(' + (-size * counter) +'px)';
     }
-    if (carouselSlide[counter].id === 'fistClone') {
+    if (carouselSlide[counter].id == 'fistClone') {
       carouselSlide.style.transition = "none";
       counter = carouselImages.length - counter;
       carouselSlide.style.transform = 'translateX(' + (-size * counter) +'px)';
