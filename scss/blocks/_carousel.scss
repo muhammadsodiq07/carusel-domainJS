@@ -1,0 +1,36 @@
+.caousel-container {
+  position: relative;  
+  width: 50%;
+  margin: 0 auto;  
+  overflow: hidden;
+}
+
+.carusel-slider {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    font-size: 30px;
+    z-index: 10;
+    color: #fff;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    font-size: 30px;
+    z-index: 10;
+    color: #fff;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.images {
+    width: 100%;  
+}

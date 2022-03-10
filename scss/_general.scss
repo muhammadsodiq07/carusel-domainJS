@@ -17,9 +17,12 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
+  // overflow-x: hidden;    
   font-family: "Arial", sans-serif;
-  background-color: #fff;
+  background-image: url('../images/surface-duo-1920x1080-23047.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 img {
