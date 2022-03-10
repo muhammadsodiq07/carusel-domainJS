@@ -61,6 +61,7 @@ img {
 
 .caousel-container {
   position: relative;
+  top: 75px;
   width: 50%;
   margin: 0 auto;
   overflow: hidden;
