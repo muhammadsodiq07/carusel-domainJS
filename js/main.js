@@ -17,7 +17,7 @@ carouselSlide.style.transform = 'translateX(' + (-size * counter) +'px)';
 let nat = 1
 nextBtn.addEventListener('click',() => {
   if (counter >= carouselImages.length -1) return;
-  carouselSlide.style.transition = 'transform 0.4s ease-out';
+  carouselSlide.style.transition = 'all 0.4s ease-out';
   counter++;
   carouselSlide.style.transform = 'translateX(' + (-size * counter) +'px)';
 
@@ -91,6 +91,8 @@ prevBtn.addEventListener('click',() => {
   }
   
 });
+
+
 
 
 carouselSlide.addEventListener('transitionend', () => {
