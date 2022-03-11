@@ -36,14 +36,14 @@ nextBtn.addEventListener('click',() => {
   } else if (nat == 3) {
   
     elbody.style.backgroundImage = "url('images/asus-rog-phone-1920x1080-20597.jpg')";
-    elbody.style.transition = "all .9s ease";
+    elbody.style.transition = "all 0.9s ease";
 
 
     nat += 1
   } else if (nat == 4) {
 
     elbody.style.backgroundImage = "url('images/surface-duo-1920x1080-23047.jpg')";
-    elbody.style.transition = "all .9s ease";
+    elbody.style.transition = "all 0.9s ease";
   }
 });
 
@@ -55,38 +55,38 @@ prevBtn.addEventListener('click',() => {
   if (nat == 5) {
  
     elbody.style.backgroundImage = "url('images/surface-duo-1920x1080-23047.jpg')";
-    elbody.style.transition = "all .9s ease";
+    elbody.style.transition = "all 0.9s ease";
 
     nat -= 1
   } else if (nat == 4) {
 
     elbody.style.backgroundImage = "url('images/asus-rog-phone-1920x1080-20597.jpg')";
-    elbody.style.transition = "all .9s ease";
+    elbody.style.transition = "all 0.9s ease";
 
     nat -= 1
   } else if (nat == 3) {
   
     elbody.style.backgroundImage = "url('images/surface-duo-1920x1080-23833.jpg')";
-    elbody.style.transition = "all .9s ease";
+    elbody.style.transition = "all 0.9s ease";
 
 
     nat -= 1
   } else if (nat == 2) {
 
     elbody.style.backgroundImage = "url('images/surface-duo-1920x1080-23828.jpg')";
-    elbody.style.transition = "all .9s ease";
+    elbody.style.transition = "all 0.9s ease";
     nat -= 1
 
   } else if (nat == 1) {
 
     elbody.style.backgroundImage = "url('images/surface-duo-1920x1080-23047.jpg')";
-    elbody.style.transition = "all .9s ease";
+    elbody.style.transition = "all 0.9s ease";
     nat -= 1
   }
   else if (nat == 0) {
 
     elbody.style.backgroundImage = "url('images/surface-duo-1920x1080-23833.jpg')";
-    elbody.style.transition = "all .9s ease";
+    elbody.style.transition = "all 0.9s ease";
     nat -= 1
   }
   
